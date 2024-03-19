@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "stylelint": "^16.2.1"
+  },
+  "name": "posmotri_v_okno",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "check": "prettier --check './**/*.{html,css,js}'",
+    "format": "prettier --write './**/*.{html,css,js}'",
+    "lint": "npx stylelint **/*.css",
+    "lintfix": "npx stylelint **/*.css --fix"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
